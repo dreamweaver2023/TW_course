@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:regular,italic,bold&display=swap');
+/*#
+@colors&{"titlesAccentColor":"#d0021b","labelsAccentColor":"#7b7a7a","linksAccentColor":"#2372de","backgroundAccentColor":"#dce5f2","isDefault":true}&colors@
+@info@STYLES BASKET SELECTIONS METADATA@info@
+@name&styles_basket&name@
+@aspects&wh-tiles,wh-tree-themes-titles-labels-colors-with-border,wh-breadcrumb-style-bold-selection,title-font-size-huge,content-font-size-12,theme-fonts-nunito,theme-color-north-garden,between-elements-large,between-lines-large,titles-borders-width-thick&aspects@
+@info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICIATION CAN CAUSE UPLOADING ERRORS@info@
+#*/
+/* Bold selection in Publication TOC. WebHelp only. */
+@media screen {
+  .wh_publication_toc .active > .topicref a {
+    font-weight: bold;
+  }
+}
+/*theme-color-north-garden*/
+.topictitle1,
+.topictitle2,
+.topictitle3,
+.topictitle4,
+.topictitle5,
+.topictitle6,
+*[class~='front-page/front-page-title'],
+*[class~="toc/title"],
+*[class~="placeholder/figurelist"] > *[class~="topic/title"],
+*[class~="placeholder/tablelist"] > *[class~="topic/title"],
+*[class~="index/groups"]::before {
+  color: #305f72;
+}
+*[class~='topic/shortdesc']:before {
+  color: #305f72;
+}
+*[class~='topic/xref'],
+*[class~='topic/link'] {
+  color: #f18c8e;
+}
+.related-links a,
+.related-links a:visited {
+  color: #f18c8e;
+}
+a,
+a:hover,
+a:visited {
+  color: #f18c8e;
+}
+*[class~='topic/table'] th {
+  background-color: #f1d1b5;
+}
+/*theme-fonts-nunito*/
+@page {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+}
+.topictitle1,
+.topictitle2,
+*[class~='front-page/front-page-title'],
+*[class~="toc/title"],
+*[class~='topic/title'],
+*[class~='topic/thead'],
+*[class~="placeholder/figurelist"],
+*[class~="placeholder/tablelist"],
+*[class~="index/groups"]::before,
+*[class~="index/group"] > *[class~="index/label"],
+.wh_publication_title,
+.wh_top_menu,
+.wh_tile_title .topicref,
+.wh_main_page_toc_entry .topicref,
+.wh_index_terms span.wh_first_letter,
+.wh-letters li a {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+}
+*[class~="map/topicref"] {
+  font-family: 'Nunito', sans-serif;
+}
+.topictitle3,
+.topictitle4,
+.topictitle5,
+.topictitle6 {
+  font-family: 'Nunito', sans-serif;
+}
+body {
+  font-family: 'Nunito', sans-serif;
+}
+/*title-font-size-huge*/
+.topictitle1,
+*[class~='toc/title'],
+*[class~="placeholder/figurelist"] > *[class~="topic/title"],
+*[class~="placeholder/tablelist"] > *[class~="topic/title"],
+*[class~="index/groups"]::before {
+  font-size: 27pt;
+}
+.topictitle2 {
+  font-size: 24pt;
+}
+.topictitle3,
+.topictitle4,
+.topictitle5,
+.topictitle6 {
+  font-size: 21pt;
+}
+/*content-font-size-12*/
+body {
+  font-size: 12pt;
+}
+/*between-elements-large*/
+*[class~='topic/p'],
+*[class~='topic/lq'],
+*[class~='topic/note'],
+*[class~='topic/dl'],
+*[class~='topic/ul'],
+*[class~='topic/ol'],
+*[class~='topic/li'],
+*[class~='topic/sl'],
+*[class~='topic/pre'],
+*[class~='topic/lines'],
+*[class~='topic/fig'],
+*[class~='topic/table'],
+*[class~='topic/simpletable'],
+*[class~='topic/section'],
+*[class~='topic/example'] {
+  margin: 1.3em 0;
+}
+/*between-lines-large*/
+*[class~='topic/topic'],
+*[class~='topic/body'],
+*[class~='topic/title'] {
+  line-height: 1.6;
+}
+/*titles-borders-width-thick*/
+.topictitle1,
+.topictitle2,
+.topictitle3,
+.topictitle4,
+.topictitle5,
+.topictitle6,
+*[class~="toc/title"],
+*[class~="placeholder/figurelist"] > *[class~="topic/title"],
+*[class~="placeholder/tablelist"] > *[class~="topic/title"],
+*[class~="index/groups"]::before {
+  border-width: thick !important;
+}
+/*wh-tiles*/
+/*wh-tree-themes-titles-labels-colors-with-border*/
+.wh_main_page_toc {
+  padding-left: 2em;
+  border: none;
+  border-left: 1px solid #305f72;
+  background-color: transparent;
+}
+.wh_main_page_toc .wh_main_page_toc_accordion_header,
+.wh_main_page_toc > .wh_main_page_toc_entry,
+.wh_main_page_toc_accordion_entries {
+  background-color: #f1d1b5;
+  text-align: left;
+}
+.wh_main_page_toc > .wh_main_page_toc_accordion_header,
+.wh_main_page_toc > .wh_main_page_toc_entry {
+  padding: 0.5em;
+  margin: 0.5em;
+  border: 1px solid #305f72 !important;
+  font-weight: bold;
+}
+.wh_main_page_toc a,
+.wh_main_page_toc a:visited {
+  color: #305f72;
+  font-size: 1.3em;
+}
+.wh_main_page_toc .wh_main_page_toc_accordion_header:hover,
+.wh_main_page_toc > .wh_main_page_toc_entry:hover {
+  background-color: rgba(241, 209, 181, 0.06);
+}
+.wh_main_page_toc_accordion_header.expanded + .wh_main_page_toc_accordion_entries {
+  margin: 0 .5em .5em .5em;
+  color: #305f72;
+  border-bottom: none;
+}
+.wh_main_page_toc .wh_main_page_toc_accordion_header:before {
+  content: "\e081";
+  left: -0.4em !important;
+  background-color: #ffffff;
+  font-size: 2em;
+  color: #305f72;
+  line-height: .8;
+  width: 22px;
+  border-radius: 50%;
+}
+.wh_main_page_toc .wh_main_page_toc_accordion_header.expanded:before {
+  content: "\e082";
+}
+.wh_main_page_toc .wh_toc_shortdesc {
+  color: #305f72;
+  background-color: transparent;
+  font-weight: normal;
+  font-size: 1em;
+}
+/*wh-breadcrumb-style-bold-selection*/
+.wh_breadcrumb ol .active a {
+  font-weight: bold;
+}
+
